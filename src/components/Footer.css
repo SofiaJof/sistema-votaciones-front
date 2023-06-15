@@ -1,0 +1,31 @@
+.footer{
+    background-color: #5F5C5E;
+}
+.footer-copyright{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.footer-copyright img{
+    max-height: 45px;
+    margin-right: 0.5rem;
+}
+.copyright h4{
+    color:rgb(255, 255, 255);
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: -4px;
+}
+span{
+    color:rgb(255, 255, 255);
+    font-size: 0.6rem;
+}
+
+@media (max-width: 1200px){
+    footer{
+        width: 100%;
+    }
+
+}

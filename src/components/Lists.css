@@ -1,0 +1,151 @@
+.lists{
+    /* margin-top: 7rem; */
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.lists h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 2.9rem;
+}
+.presidente{
+    font-size: 1.0rem;
+}
+.name{
+    font-weight: bold;
+    max-width: 65%;
+}
+.lista{
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+.participantes li{
+    list-style: none;
+    font-size: 1.0rem;
+}
+ul{
+    margin-top: 20px;
+    margin-left: -27px;
+}
+.wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards{
+    margin: 10px;
+    max-width: 30%;
+}
+.name-presindente{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+} 
+.cards img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.title-lista{
+    font-weight: bold;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-color: #fff;
+}
+button{
+    color: #fff;
+    background-color: #D17901;
+    border: none;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    width: 146px;
+}
+.button-bt{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2.9rem;
+    margin-top: 15px; 
+    margin-bottom: 10px;
+}
+
+ @media (max-width: 1200px) {
+    .lists h2{
+       margin-left: 2.4rem;
+    }    
+    .cards{
+        max-width: 30%;
+    }
+    .cards img{
+       width: 125px;
+       height: 125px
+    }
+    .presidente, .name{
+       font-size: 0.8em;
+    }
+    ul{
+        margin-left: -36px;
+    }
+    .participantes li{
+        font-size: 0.7em;
+    }
+    .button-bt{
+        margin-right: 2.3rem;
+    }
+}
+
+@media (max-width: 991px){
+    .lists h2{
+        font-size: 1.3em;
+        margin-left: 1.0rem;
+     }  
+    .card-body{
+       justify-content: center;     
+    }
+    .name-presindente{
+        align-items: center;
+        margin-top: 10px;
+    }
+    .name{
+        max-width: 100%;
+    }
+    .title-lista{
+        font-size: 1.0em;
+    }
+    ul{
+        margin-left: -2.5rem;
+    }
+    .participantes li{
+        font-size: 0.58em;
+    }
+    .button-bt{
+        margin-right: 1.0rem;
+    }
+
+} 
+
+@media (max-width: 768px){
+    .lists h2 {
+        font-size: 1.1em;
+        margin-left: 1.8rem;
+    }
+    .container{
+        max-width: 85%;
+    }
+    
+    button{
+        width: 120px;
+        font-size: 0.7rem;
+    }
+}
+
+
+

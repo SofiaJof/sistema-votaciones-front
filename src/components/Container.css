@@ -1,0 +1,58 @@
+.container-votacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.2rem;
+    padding-right: 2.7rem;
+    margin-bottom: 5rem;
+    margin-top: 7rem;
+}
+.elecciones{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+.card-urna{
+    max-width: 50%;
+}
+.urna img{
+    width: 100px;
+    height: 100px;
+}
+.urna-text img{
+    width: 90%;
+}
+.urna{
+    display: flex;
+    flex-wrap: wrap;
+}
+.elecciones h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.elecciones h4{
+    font-size: 0.9rem; 
+    text-transform: uppercase;
+}
+
+@media (max-width: 991px){
+    .container-votacion{
+        padding-left: 0.8rem;
+        padding-right: 1.2rem;
+    }
+    .urna img{
+        width: 80px;
+        height: 80px;
+    }
+    .urna-text img{
+        width: 80%;
+        object-fit: contain;
+    }
+    .elecciones h3{
+        font-size: 1.0rem;
+    }
+    .elecciones h4{
+        font-size: 0.7rem; 
+    }
+}
