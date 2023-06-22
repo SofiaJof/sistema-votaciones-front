@@ -7,7 +7,7 @@ import image3 from "../images/image3.jpg";
 import Modal from './Modal.js';
 
 function Lists () {
-    const lista = [{
+    const listas = [{
         id:1,
         lista: 'lista verde "10" ',
         name: "Carla Ferrer",
@@ -45,11 +45,21 @@ return (
     <div className='lista'>
       <h2>Listas</h2>
       <div className="wrapper">
-        {lista.map((item) => {
+        {listas.map((item) => {
           return (  
               <Card className="cards">
                 <Card.Body>
-                  <Card.Header className='title-lista' >{item.lista } </Card.Header> 
+                  <Card.Header className='title-lista' 
+                  style={{
+                          backgroundColor:
+                            item?.lista  === 'lista verde "10" '
+                              ? "#53D65F "
+                              : item.lista === 'lista roja "06" '
+                              ? "#F44129"
+                              : item.lista === 'lista azul "22" '
+                              ? " #3356CE"
+                              : "#00000000",
+                        }}>{item.lista } </Card.Header> 
                   <Card.Img variant="top" src={item.imageUrl} />
                   <div className="name-presindente">
                     <h4 className='presidente'>presidente</h4>

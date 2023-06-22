@@ -51,7 +51,18 @@ function Seleccionar() {
     {lista.map((item) => {
         return (  
         <Card style={{ width: '28rem' }}>
-            <Card.Header className='title-item'>{item.lista} </Card.Header>
+            <Card.Header className='title-item' 
+                style={{
+                    backgroundColor:
+                      item?.lista  === 'lista verde "10" '
+                        ? "#53D65F "
+                        : item.lista === 'lista roja "06" '
+                        ? "#F44129"
+                        : item.lista === 'lista azul "22" '
+                        ? " #3356CE"
+                        : "#00000000",
+                  }}
+            >{item.lista} </Card.Header>
             <ListGroup variant="flush">
                 <ListGroup.Item className='title-vote'>Votar lista completa <Checkbox/> </ListGroup.Item>
                 <ListGroup.Item> 
