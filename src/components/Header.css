@@ -26,121 +26,37 @@ img{
 .navbar-collapse{
     justify-content: flex-end;
 }
-.title-modal-cod {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 6rem;
-    margin-top: 1rem;
-}
-.title-modal-cod h4{
-    font-size: 1.3rem;
-}
 .modal-header, .modal-footer{
     border-bottom: none;
     border-top: none;
 }
+.modal-dialog {
+    top: 25%;
+} 
+.modal-content {
+    padding: 8px;
+}
+.title-modal-cod h4{
+    font-size: 1.0rem;
+    margin-left: 0.8rem;
+    margin-top: 1.0rem;
+}
 form{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.form-modal{
-    margin-left: -5rem;
-}
-.form-control{
-    width: 140%;
+    justify-content: space-between;
+    margin-top: -1.9rem;
 }
 .form-label {
     margin-bottom: 0.5rem;
-    transform: translate(14px, 20px);
+    transform: translate(16px, 18px);
     background-color: white;
     text-transform: uppercase;
-}   
-.modal-dialog{
-    position: absolute;
-    top: 25%;
-    /* left: 34%; */
-    left: 28%;
-    transform: translate(-50%, -50%);
-}
+    font-size: 0.8rem;
+} 
 .footer-cod{
     margin-right: 2rem;
     margin-bottom: 1rem
 }
 .footer-cod .btn-primary, .footer-cod .btn-secondary{
-    font-size: 1.1rem;
-}
-
-@media (max-width: 1200px){
-    .modal-dialog{
-        left: 22%;
-    }
-    .form-control{
-        width: 120%;
-    }
-}
-@media (max-width: 990px){
-    .modal-dialog{
-        top: 20%;
-        left: 25%;
-        max-width: 40%;
-    }
-    .title-modal-cod {
-        margin-left: 3.5rem;
-    }
-    .title-modal-cod h4{
-        font-size: 1.0rem;
-    }
-    .modal-footer{
-        margin-right: 1rem;
-    }
-    .btn-primary{
-        font-size: 0.8rem;
-        width: 130px;
-    }
-    .btn-secondary{
-        font-size: 0.8rem;
-        width: 130px;
-    }
-    .form-control{
-        width: 100%;
-    }
-    .form-modal{
-        margin-left: -2rem;
-    }
-    .form-label{
-        font-size: 0.8rem;
-        transform: translate(10px, 18px);
-    }
-    .footer-cod .btn-primary, .footer-cod .btn-secondary{
-        font-size: 0.9rem;
-    }
-}
-@media (max-width: 850px){
-    .title-modal-cod {
-        margin-left: 2.5rem;
-        margin-bottom: -2rem;
-    }
-    .modal-dialog{
-        top: 18%;
-    } 
-    .title-modal-cod h4{
-        font-size: 0.8rem;
-    }
-    .form-control{
-        width: 80%;
-    }
-    .form-modal{
-        margin-left: -1rem;
-        width: 115%;
-    }
-    .form-label{
-        font-size: 0.6rem;
-        transform: translate(8px, 17px);
-    }
-    .footer-cod .btn-primary, .footer-cod .btn-secondary{
-        font-size: 0.7rem;
-        margin-top: -1rem;
-    }
+    font-size: 1.0rem;
 }

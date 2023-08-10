@@ -18,8 +18,7 @@ function Example() {
       <Modal show={show} onHide={handleClose}>
          <Modal.Header>
           <Modal.Title className='title-modal-cod'>
-            <h4>Ingrese código de seguridad recibidos por email</h4>
-            <h4>(Ambos se enviaron en dos emails por separados)</h4> 
+            <h4>Ingrese código de seguridad recibidos por email (Ambos se enviaron en dos emails por separados)</h4> 
             </Modal.Title>
         </Modal.Header>
         <Modal.Body className='form-modal'>

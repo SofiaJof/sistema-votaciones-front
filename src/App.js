@@ -4,9 +4,9 @@ import { Container } from 'react-bootstrap';
 import Home from './pages/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import ContainerVote from './components/ContainerVote';
+import Constancia from './pages/Constancia';
 import Votacion from './pages/Votacion';
-
+import Admin from './pages/Admin';
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
          <Routes >
           <Route path='/' element={<Home/>} /> 
           <Route path='/vote' element={<Votacion/>} /> 
-          <Route path='/constancia' element={<ContainerVote />} />
+          <Route path='/constancia' element={<Constancia />} />
+          <Route path='/admin' element={<Admin/>} />
          </Routes>
       </Container>
       <Footer/>

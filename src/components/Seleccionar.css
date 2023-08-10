@@ -29,10 +29,8 @@
 .seleccionar .card{
     margin: 15px;
 }
-.list-group-item{
-    border-bottom: #5F5C5E solid;
-}
 .list-group-item {
+    border-bottom: #5F5C5E solid;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -43,16 +41,19 @@
     object-fit: contain;
     width: 80px;
     height: 80px;
-    margin-right: 0.6rem;
 } 
-.list-group-item h4{
+.cargo-seleccion {
+    width: 50%;
+}
+.cargo-seleccion h4{
     font-size: 1.0rem;
     text-transform: uppercase;
-    max-width: 65%;
-    margin-top: 0.5em;
+}
+.cargo-seleccion-item{
+    font-weight: bold;
 }
 .form-check-input{
-    margin-top: 1.0em;
+    margin-top: 2.4rem;
     border-color: #5F5C5E;
 }
 .white-vote{
@@ -77,19 +78,22 @@
     margin-top: 1.4rem;
 }
 
-@media (max-width: 995px) {
+ @media (max-width: 991px) {
     .title-selecionar h3{
         font-size: 1.0rem;
     }
     .title-item, .title-vote {
-        font-size: 1.0em;
+        font-size: 0.9rem;
     }
-    .list-group-item h4 {
-        font-size: 0.7rem;
-        max-width: 50%;
+    .list-group-item img.card-img-top{
+        width: 60px;
+        height: 60px;
+    } 
+    .cargo-seleccion h4{
+        font-size: 0.6rem;
     }
-    .list-group-item {
-        padding: 0.5rem;
+    .form-check-input {
+        margin-top: 2.8rem;
     }
     .white-vote{
         width: 29.8%;
@@ -99,21 +103,29 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .title-selecionar h3{
         font-size: 0.8rem;
     }
-    .list-group-item img.card-img-top{
-        border-radius: 50%;
-        object-fit: contain;
-        width: 50px;
-        height: 50px;
-    } 
-    .title-item, .title-vote {
-        font-size: 0.8rem;
+    .list-group-item img.card-img-top {
+        width: 45px;
+        height: 45px;
+        margin-left: -9px;
+        margin-right: 7px;
     }
-    .list-group-item h4 {
-        font-size: 0.5rem;
+    .title-item, .title-vote {
+        font-size: 0.7rem;
+    }
+    .title-vote {
+        padding-left: 8px;
+    }
+    .cargo-seleccion h4{
+        font-size: 8px;
+    }
+    input.form-check-input {
+        font-size: 0.7rem;
+        margin-right: -9px;
+        margin-top: 2.9rem;
     }
     .white-vote{
         width: 28.7%;
@@ -121,4 +133,4 @@
     .button-confirm{
         font-size: 0.8rem;
     }
-}
+}  

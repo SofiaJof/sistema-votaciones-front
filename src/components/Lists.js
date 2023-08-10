@@ -53,11 +53,11 @@ return (
                   style={{
                           backgroundColor:
                             item?.lista  === 'lista verde "10" '
-                              ? "#53D65F "
+                              ? "#599978"
                               : item.lista === 'lista roja "06" '
-                              ? "#F44129"
+                              ? "#fc5f5c"
                               : item.lista === 'lista azul "22" '
-                              ? " #3356CE"
+                              ? "#5799ff"
                               : "#00000000",
                         }}>{item.lista } </Card.Header> 
                   <Card.Img variant="top" src={item.imageUrl} />

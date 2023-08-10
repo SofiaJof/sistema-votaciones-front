@@ -1,29 +1,10 @@
-.modal-content{
-    width: 140%;
-}
-.confirm-selection-modal{
-    margin-top: -13rem;
-    height: 140%;
-}
-.confirm-card-body{
-    border-width: 0px;
-    width: 80%;
-}
-.confirm-selection-body.modal-body {
-    display: flex;
-    justify-content: center;
-}
-.title-confirm{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1.2rem;
-    margin-bottom: -1rem;
+.modal-dialog.modal-lg {
+    top: 5%;
 }
 .title-confirm h4{
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-left: 8rem;
+    font-size: 1.2rem;
+    margin-left: 30%;
+    width: 100%;
 }
 .title-header{
     font-size: 1.2rem;
@@ -35,79 +16,38 @@
 }
 .confirm-selection{
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
     align-items: center;
+    margin-left: 7%;
+}
+.confirm-card-body{
+    border: none;
 }
 .confirm-selection .cargo, .confirm-selection .name{
     max-width: 100%;
-    font-size: 1.0rem;
     text-transform: uppercase;
+    font-size: 1.0rem;
 }
 .confirm-selection .lista{
-    font-size: 1.0rem;
     text-transform: none;
 }
 .confirm-selection-text {
-    width: 10rem;
+    margin-left: 10px;
 }
 .footer-confirm{
-    margin-right: 4rem;
     margin-top: -2rem;
-    margin-bottom: 2rem;
 }
-.form-check-input:checked {
-    background-color: #D17901;
-    border-color: #D17901;
-}
-@media (max-width: 990px) {
-    .confirm-selection-modal {
-        margin-top: -9rem;
-        height: 124%;
-    }    
-    .title-confirm{
-        margin-top: 0rem;
-    }
-    .title-confirm h4{
-        font-size: 1.0rem;
-        margin-left: 7rem;
-    }
-    .title-header{
-        font-size: 0.9rem;
+ 
+@media (max-width: 991px) {
+    .confirm-selection{
+        margin-left: 0;
     }
     .confirm-selection .cargo, .confirm-selection .name, .confirm-selection .lista{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
-    .confirm-selection-text {
-         width: 6rem;
-    }
-    .footer-confirm {
-        margin-right: 3rem;
-        margin-top: 0rem;
-        margin-bottom: 0rem;
-    }
-}
-@media (max-width: 924px){
     .title-confirm h4{
-        font-size: 0.9rem;
-        margin-left: 6rem;
-    }
-    .confirm-selection{
-        margin-left: 3rem;
-    }
-    .confirm-selection-text {
-        width: 8rem; 
-        margin-left: 0.5rem;
-    }
-        
-}
-@media (max-width: 800px){
-    .title-confirm h4 {
-        margin-left: 4.2rem;
-    }    
-    .confirm-selection {
-        margin-left: 2rem;
-    }
-    .confirm-selection-text {
-        width: 6rem;
+        margin-left: 6%;
+        font-size: 1rem;
     }
 }
+ 

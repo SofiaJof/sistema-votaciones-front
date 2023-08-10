@@ -13,7 +13,9 @@ const Header = () => {
         <div className='header'>
             <Navbar expand="lg" fixed="top">
                 <Container>
-                    <Navbar.Brand className='title'><img alt='logo' src={logo}></img></Navbar.Brand>
+                    <Navbar.Brand className='title'>
+                        <a href='/'><img alt='logo' src={logo}></img> </a>
+                        </Navbar.Brand>
                      {/* <Navbar.Toggle />  */}
                     {/* <Navbar.Collapse > -->Esto hacía que el botón ya no se vea cuando se achica la pantalla */} 
                         <Nav className='ml-auto'>

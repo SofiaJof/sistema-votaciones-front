@@ -1,0 +1,92 @@
+.sistema-select{
+    height: 150px;
+}
+.admin-container{
+    margin-top: 8rem;
+    background-color: #D17901;
+    border-radius: 5px;
+}
+.sistema-img img{
+    height: 110px;
+}
+.sistema-img{
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+.buttons-admin{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
+.buttons-admin button{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: white;
+    color: #5F5C5E;
+    font-weight: bold;
+    height: 30px;
+}
+.buttons-up, .buttons-down{
+    margin-top: 1rem;
+}
+.buttons-up button, .buttons-down button{
+    margin-left: 1rem;
+}
+
+/*----------------- lista ---------------------*/
+.conteo{
+    background-color: #DCDEE3;
+    padding: 1.4rem;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0.8rem 1.5rem 0rem 2.2rem;
+}
+.sistema-lista{
+    margin-top: 1rem;
+    margin-bottom: 7rem;
+}
+.sistema-lista .list-group-item{
+    border-bottom: none;
+    justify-content: flex-start;
+}
+.sistema-lista .list-group-item h4{
+    font-size: 16px;
+    max-width: 65%;
+    margin-top: 12px;
+}
+
+@media (max-width: 991px){
+    .sistema-img img{
+        height: 90px;
+    }
+    .buttons-admin button{
+        width: 122px;
+        font-size: 11px;
+    }
+
+    /*----------------- lista ---------------------*/
+    .conteo{
+        font-size: 16px;
+    }
+    .sistema-lista .list-group-item h4{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sistema-img img{
+        height: 70px;
+    }
+    .sistema-img{
+        margin-left: 1.8rem;
+    }
+    .buttons-admin button{
+        width: 81px;
+        font-size: 10px;
+        padding: 2px;
+    }
+}
