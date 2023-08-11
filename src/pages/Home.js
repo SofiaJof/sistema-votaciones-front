@@ -1,13 +1,13 @@
 // import React, {useState} from 'react';
 import React from 'react';
 import Lists from '../components/Lists'
-import Container from '../components/Container'
+import Elecciones from '../components/Elecciones'
 
 const Home = () => {
 
     return (
       <div className="lists">
-          <Container/>
+          <Elecciones/>
           <Lists/> 
       </div>
   );

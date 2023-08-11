@@ -1,12 +1,12 @@
 import React from 'react';
-import Container from '../components/Container'
+import Elecciones from '../components/Elecciones'
 import Seleccionar from '../components/Seleccionar'
 
 const Votacion = () => {
 
     return (
       <div className="vote">
-          <Container/>
+          <Elecciones/>
           <Seleccionar/>
       </div>
   );
